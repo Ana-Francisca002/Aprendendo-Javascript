@@ -1,5 +1,4 @@
-/* Trabalhando com objetos você irá perceber que ao tentar atribuir um objeto a uma constante (ex) na verdade 
-você estará trabalhando com um referência a aquele objeto*/
+/* Trabalhando com objetos você irá perceber que ao tentar atribuir um objeto a uma constante (ex) na verdade você estará trabalhando com um referência a aquele objeto */
 
 //const teste = {nome: ana}
 //const teste2 = teste -> o teste2 esta recebendo o endereço do objeto que o teste também tem acesso
