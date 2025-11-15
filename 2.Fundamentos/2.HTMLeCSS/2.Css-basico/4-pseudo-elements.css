@@ -1,0 +1,19 @@
+/*Depois do elemento adiciona algo*/
+ul li::after {
+    content: "-";
+}
+
+/*A primeira letra é modificada*/
+
+.revista::first-letter{
+    font-size: 50px;
+}
+
+.revista::first-line{
+    color: darkgreen;
+}
+
+p::selection {
+    background-color: black;
+    color: white;
+}

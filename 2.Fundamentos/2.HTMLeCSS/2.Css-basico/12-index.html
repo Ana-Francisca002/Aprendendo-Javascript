@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="12-flexbox.css">
+
+</head>
+<body>
+
+    <h1>Flex</h1>
+
+    <p>O display flex é uma versão melhorada do float, onde você tem um controle melhor dos itens em um container.</p>
+
+    <br>
+
+    <ul>
+        <p>Para o container</p>
+        <li>flex-direction: define o eixo principal;</li>
+        <li>justify-content: usado para organizar os itens no eixo row;</li>
+        <li>align-items: usado para organizar os itens no eixo column (alinha os itens);</li>
+        <li>align-content: usado para organizar os itens no eixo column (alinha o conteúdo)</li>
+        <li>flex-wrap: quebra a linha com os itens no container;</li>
+        <li>flex-flow: junção do flex-direction e flex-wrap.</li>
+        <br>
+        <p>Para o item</p>
+        <li>flex-grow: faz com que os itens se acomodem na div (distribui o espaço);</li>
+        <li>flex-basis: dá o tamanho para o elemento;</li>
+        <li>flex-shrink: permite ou não que o elemento diminua;</li>
+        <li>align-self: alinha um item em especifico (usando o :nth-child)</li>
+    </ul>
+    
+
+    <br>
+
+    <h2>Testando</h2>
+
+    <div class="flex-container">
+        <div class="flex-item">Um</div>
+        <div class="flex-item">Dois</div>
+        <div class="flex-item">Três</div>
+        <div class="flex-item">Quatro</div>
+        <div class="flex-item">Cinco</div>
+    </div> 
+    
+    <br>
+
+    <div class="flex-container-2">
+        <div class="flex-item-2">Um</div>
+        <div class="flex-item-2">Dois</div>
+        <div class="flex-item-2">Três</div>
+        <div class="flex-item-2">Quatro</div>
+        <div class="flex-item-2">Cinco</div>
+    </div>
+
+    <br>
+
+    <h2>Testando</h2>
+
+    <div class="flex-container-3">
+        <div class="flex-item-3">Um</div>
+        <div class="flex-item-3">Dois</div>
+        <div class="flex-item-3">Três</div>
+        <div class="flex-item-3">Quatro</div>
+        <div class="flex-item-3">Cinco</div>
+    </div>
+    
+</body>
+</html>

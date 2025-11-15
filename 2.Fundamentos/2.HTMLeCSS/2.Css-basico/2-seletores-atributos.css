@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Selecionando todos os elementos com determinado valor*/
+[meu-atributo~="valor1"]{
+
+    color: red;
+}
+
+/*Se o seu atributo começar com isso ele é selecionado para estilização*/
+
+[meu-abributo^="q"]{
+
+    color: yellow;
+}
+
+/*Termina com*/
+
+[meu-atributo$="k"]{
+    color: purple;
+}
+
+/*Seletor de contem, independendo se o valor for no começo, meio ou fim, se contem esse valor ele seleciona*/
+
+[meu-atributo*="rric"]{
+    color:darkred;
+}

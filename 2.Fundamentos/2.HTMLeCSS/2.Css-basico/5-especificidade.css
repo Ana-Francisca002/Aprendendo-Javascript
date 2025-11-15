@@ -1,0 +1,25 @@
+/* Ordem de preferência
+
+1- ID;
+2- Classes atributos e pseudo classes;
+3- Elementos e pseudo elementos
+
+*/
+
+/*Selecionando o id*/
+
+#p {
+    background-color: red;
+}
+
+/*Especificando o id e a classe*/
+
+#p.p{
+    background-color: purple;
+}
+
+/*Especificando o elemento, id e classe*/
+
+p#p.p{
+    background-color: yellow;
+}

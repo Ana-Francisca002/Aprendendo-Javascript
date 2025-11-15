@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Quando passar o mouse sobre o texto as estilizações acontecem*/
+.sobre:hover{
+    color: red;
+}
+
+/*Quando o mouse estiver sobre o input as estilizações ocorrem*/
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+/*Negação*/
+p:not(.nao-esse){
+    color: darkblue;
+}
+
+/*Seleciona elementos irmãos baseado no que for configurado*/
+ul li:nth-child(3n){ /*Modifica só o 3 elemento
+    */
+    color: darkgoldenrod;
+}

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Selecionando tag especifíca*/
+
+/*
+p { 
+    color: red;
+}
+*/
+
+
+
+/*especificando as tags pais e filhas*/
+
+/* 
+div section h3 { 
+    color: violet;
+}
+*/
+
+
+
+/*Selecionando o elemento com a classe especifica*/
+
+.title-section{
+
+    border: 1px solid red;
+}
+
+
+
+/*Classe pai que as tags filhas vão ser modificadas*/
+/*É possível fazer isso com classes, ids ou outras classes*/
+
+.main-content h3{
+    border: 1px solid darkblue;
+}
+
+
+
+/*Especifica uma classe, outra classe e o elemente especifico da classe*/
+
+.main-content2 h3.yellow-color{
+    color: yellow;
+}
+
+/*É possível selecionar as tags filhas diretas da seguinte forma: .classpai > classfilhadireta*/
+
+
+
+/*É possível selecionar uma tag pelo seu irmão (dai somente as tags após o irmão serão estilizadas)*/
+
+.main-content2 h3+p{
+
+    color: purple;
+
+}
+
+
+
+/*Criar atributos e estilizar pelos atributos*/
+
+[meu-atributo=valor]{
+    color: aqua;
+}

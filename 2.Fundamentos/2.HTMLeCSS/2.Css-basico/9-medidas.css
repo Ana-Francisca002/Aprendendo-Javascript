@@ -1,0 +1,24 @@
+html {
+    font-size: 62.5%; /*Coloca essa medida que a multiplicação vai ser mais simples*/
+
+}
+
+.pai{
+
+    width: 30rem; /*Com a medida de cima 30 equivale a 300px*/
+}
+
+
+
+/*Baseado no elemento pai o p vai ser modificado*/
+/*Basta pegar o valor em em e multiplicar pelo valor do pai*/
+
+p {
+    font-size: 1.6rem;
+}
+
+
+
+.cor-1 {
+    height: 100vh;
+}

@@ -1,0 +1,12 @@
+/*Existem várias propriedades que podem ser herdadas pelos elementos filhos*/
+
+.main-content {
+    color: red;
+}
+
+/*Desativando a herança no h1*/
+
+h2 {
+
+    color: initial;
+}

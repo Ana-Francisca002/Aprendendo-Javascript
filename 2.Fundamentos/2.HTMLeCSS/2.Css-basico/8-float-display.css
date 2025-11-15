@@ -1,0 +1,45 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Isso vai forçar o grid a definir um tamanho para si e assim elementos fora do grid não vão atrapalhar*/
+
+.grid::after{
+    content: "";
+    display: block;
+    clear: both;  /*Limpe em ambos os lados de conteúdo*/
+}
+
+.grid .col {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    float: left; /*É como se essa propriedade disesse para o navegador: Mermão, meu espaço é esse aqui, o que sobrar pode preencher com outros elementos*/
+    margin: 10px;
+}
+
+
+.grid-2 .col-2{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+
+.grid-2 .col-2r{
+     background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: right;
+}
+
+.p-2{
+    background-color: green;
+    overflow: auto;
+}

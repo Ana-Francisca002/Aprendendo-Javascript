@@ -1,0 +1,32 @@
+
+
+.filha1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 2;
+    top: 350px;
+    left: 50px;
+}
+
+.filha2{
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+ul {
+    height: 200px;
+    overflow-y: auto;
+}
+
+.filha-s {
+
+    position: sticky;
+    background-color: gray;
+    top: 0;
+}

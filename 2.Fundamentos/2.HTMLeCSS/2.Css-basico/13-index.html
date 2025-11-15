@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="13-grid.css">
+
+</head>
+<body>
+    
+    <h1>Grid</h1>
+
+    <ul>
+        <li>grid-template-columns: define as configurações das colunas;</li>
+        <li>grid-template-rows: para definir as linhas da grid;</li>
+        <li>fr: fragmento, é uma medida interessante de distribuir as divs pela grid;</li>
+        <li>repeat: vai repetir tantas vezes alguma coisa ( repeat(10, 1fr) );</li>
+        <li>grid-column(row) span 2: a minha coluna ou linha vai fazer um span.</li>
+    </ul>
+
+    <p>É possível usar o repeat para deixar o design da grid responsivo: repeat(auto-fill, minmax(320px, 1fr)). O auto-fill faz a grid se ajustar automaticamente e o minmax define a largura mínima e máxima.</p>
+
+    <br>
+
+    <h2>Gap</h2>
+    <p>É uma propriedade que define espaços entre linhas e colunas.</p>
+
+    <br> <br>
+
+    <h2>Testando</h2>
+    <div class="grid">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+
+    <br><br><br>
+
+    <h2>Testando 2</h2>
+    <div class="grid-2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    
+</body>
+</html>
